@@ -1,0 +1,219 @@
+*{
+      margin: 0px;
+      padding: 0px;
+      box-sizing: border-box;
+  }
+
+
+body{
+      background-image: url(ubposter.jpg);
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.header{
+      color: aliceblue;
+      text-align: center;
+      margin-bottom: 50px;
+      border: black solid;
+      padding-bottom: 10px;
+      margin: 50px;
+      background-color: rgb(30, 30, 31);
+      border-radius: 50px;
+      border: solid 15px rgb(13,13,13);
+}
+
+.header img{
+      width: 100%;
+      border-radius: 50px;
+}
+
+.header h3{
+      opacity: 50%;
+      letter-spacing: 2px;
+      font-size: x-large;
+}
+
+#statbox{
+      display: flex;
+      flex-direction: row;
+      color: aliceblue;
+      padding: 10px;
+      margin-left: 50px;
+      margin-right: 50px;
+      margin-top: 40px;
+      font-size: x-large;
+      border-radius: 50px;
+      background-color: rgb(30, 30, 31);
+      border: solid 15px rgb(13,13,13);
+
+}
+
+#statbox img{
+      margin: 40px;
+      height: 245px;
+}
+
+#statbox .stats{
+      padding-left: 30px;
+      padding-top: 40px;
+}
+
+#statbox .stats img{
+      margin-right: -50px;
+}
+
+
+#statbox .wowzers img{
+      height: 300px;
+}
+
+#statbox .wowzers{
+      margin-left: -200px;
+}
+
+#evoline{
+      background-color: rgb(30, 30, 31);
+      font-family: 'Courier New', Courier, monospace;
+      color: aliceblue;
+      border: solid rgb(13, 13, 13) 15px;
+      margin: 50px;
+      padding: 25px;
+      border-radius: 50px;
+      font-size: larger;
+}
+
+#evoline .evo{
+      display: flex;
+      flex-direction: row;
+      margin-left: -90px;
+}
+
+#evoline img{
+      height: 250px;
+      margin: 150px;
+}
+
+
+#evoline .evo .arrow img{
+      height: 30px;
+      margin: -120px;
+      margin-top: -250px;
+      margin-left: 30px;
+      margin-bottom: -250px;
+      margin-right: 20px;
+}
+
+.info img{
+      height: 250px;
+      margin-left: 40px;
+      margin-bottom: 50px;
+}
+
+.statbox h2{
+      font-size: xx-large;
+      padding: 50px;
+      text-align: left;
+}
+
+.dex{
+      background-color: rgb(30, 30, 31);
+      font-family: 'Courier New', Courier, monospace;
+      color: aliceblue;
+      border: solid rgb(13, 13, 13) 15px;
+      margin: 50px;
+      padding: 25px;
+      border-radius: 50px;
+}
+
+.dex h4{
+      padding: 15px;
+      color: rgb(71, 170, 197);
+      font-size: larger;
+}
+
+.dex p{
+      padding: 15px;
+}
+
+.previous{
+      display: flex;
+      flex-direction: column;
+      text-align: right;
+      font-size: x-large;
+      margin: 10px;
+      margin-top: -15px;
+}
+
+.previous a{
+      color: rgb(247, 245, 251);
+      letter-spacing: 1px;
+}
+
+.type .dragon{
+      background-color: rgb(102, 53, 252);
+      border: solid 15px rgb(30, 30, 31);
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-top: 3px;
+      padding-bottom: 3px;
+      border-radius: 8%;
+}
+
+.type .poison{
+      background-color: rgb(163, 56, 161);
+      border: solid 15px rgb(30, 30, 31);
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-top: 3px;
+      padding-bottom: 3px;
+      border-radius: 8%;
+}
+
+.type{
+      display: flex;
+      flex-direction: row;
+      width: 250px;
+      margin-left: 100px;
+}
+
+.type a{
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+      font-family: monospace;
+      color: aliceblue;
+
+}
+
+.type .type2{
+      transition: all 500ms;
+}
+
+.type .type2:hover{
+      transform: translate(0px, -10px);
+}
+
+
+.previous{
+      display: flex;
+      gap: 5px;
+      padding: 5px;
+}
+
+.prev{
+      display: flex;
+      flex-direction: column;
+
+      font-size: x-large;
+      margin: 10px;
+      margin-top: -15px;
+}
+
+
+.prev a{
+      text-align: left;
+      font-size: x-large;
+      color: rgb(247, 245, 251);
+      letter-spacing: 1px;
+      width: fit-content;
+}

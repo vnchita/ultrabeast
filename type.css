@@ -1,0 +1,379 @@
+*{
+      margin: 0px;
+      padding: 0px;
+      box-sizing: border-box;
+}
+
+body{
+      background-color: rgb(30, 30, 31);
+      color: aliceblue;
+      font-family: monospace;
+}
+
+.header{
+      display: flex;
+      flex-direction: column-reverse;
+      font-size: xx-large;
+      text-align: center;
+      margin: 40px;
+}
+
+
+.desc{
+      padding: 10px;
+      background-color: rgb(0, 0, 0);
+      margin: 15px;
+      font-family: 'Courier New', Courier, monospace;
+      height: fit-content;
+      display: flex;
+      flex-direction: row;
+      border: dashed white;
+}
+
+.desc .text{
+      display: flex;
+      flex-direction: column;
+
+}
+
+.desc .text p{
+      margin-top: 25px;
+}
+
+.desc img{
+      margin: 25px;
+      height: 100px;
+}
+
+.stats{
+      display: flex;
+      flex-direction: row;
+}
+
+.atk{
+      background-color: black;
+      margin: 15px;
+      padding: 25px;
+      border: dashed;
+      width: 1000px;
+}
+
+.def{
+      background-color: black;
+      margin: 15px;
+      padding: 25px;
+      border: dashed;
+      width: 1000px;
+}
+
+.ubs a{
+      color: aliceblue;
+      text-decoration: none;
+      font-size: large;
+}
+
+.atkp{
+      padding: 10px;
+      margin: 15px;
+      font-family: 'Courier New', Courier, monospace;
+      height: fit-content;
+      display: flex;
+      flex-direction: column;
+      width: fit-content;
+}
+
+.atkc{
+      padding: 10px;
+      margin: 15px;
+      font-family: 'Courier New', Courier, monospace;
+      height: fit-content;
+      display: flex;
+      flex-direction: column;
+      width: fit-content;
+}
+
+.atkn{
+      padding: 10px;
+      margin: 15px;
+      font-family: 'Courier New', Courier, monospace;
+      height: fit-content;
+      display: flex;
+      flex-direction: column;
+      width: fit-content;
+}
+
+.defp{
+      padding: 10px;
+      margin: 15px;
+      font-family: 'Courier New', Courier, monospace;
+      height: fit-content;
+      display: flex;
+      flex-direction: column;
+
+      
+}
+
+.defc{
+      padding: 10px;
+      margin: 15px;
+      font-family: 'Courier New', Courier, monospace;
+      height: fit-content;
+      display: flex;
+      flex-direction: column;
+}
+
+.defn{
+      padding: 10px;
+      margin: 15px;
+      font-family: 'Courier New', Courier, monospace;
+      height: fit-content;
+      display: flex;
+      flex-direction: column;
+}
+
+.other{
+      padding: 10px;
+      margin: 15px;
+      font-family: 'Courier New', Courier, monospace;
+      height: fit-content;
+      background-color: black;
+      margin: 15px;
+      padding: 25px;
+      border: dashed;
+
+}
+
+.ub{
+      display: flex;
+      flex-direction: row ;
+}
+
+.ubs{
+      text-align: center;
+      margin-left: 75px;
+
+}
+.typerow{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+
+}
+
+.type{
+      padding: 5px;
+      padding-right: 50px;
+}
+
+.typerow a{
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+      font-family: monospace;
+      color: aliceblue;
+}
+
+.typerow .fire{
+      background-color: rgb(235, 130, 48);
+      border: solid 1px rgb(30, 30, 31);
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-top: 3px;
+      padding-bottom: 3px;
+      border-radius: 8%;
+      width: fit-content;
+}
+
+.typerow .ice{
+      background-color: rgb(150, 217, 214);
+      border: solid 1px rgb(30, 30, 31);
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-top: 3px;
+      padding-bottom: 3px;
+      border-radius: 8%;
+      width: fit-content;
+}
+
+.typerow .bug{
+      background-color: rgb(166, 185, 30);
+      border: solid 1px rgb(30, 30, 31);
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-top: 3px;
+      padding-bottom: 3px;
+      border-radius: 8%;
+      width: fit-content;
+}
+
+.typerow .flying{
+      background-color: rgb(169, 143, 243);
+      border: solid 1px rgb(30, 30, 31);
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-top: 3px;
+      padding-bottom: 3px;
+      border-radius: 8%;
+      width: fit-content;
+}
+
+.typerow .steel{
+      background-color: rgb(183, 183, 206);
+      border: solid 1px rgb(30, 30, 31);
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-top: 3px;
+      padding-bottom: 3px;
+      border-radius: 8%;
+      width: fit-content;
+}
+
+.typerow .fighting{
+      background-color: rgb(194, 46, 40);
+      border: solid 1px rgb(30, 30, 31);
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-top: 3px;
+      padding-bottom: 3px;
+      border-radius: 8%;
+      width: fit-content;
+}
+
+.typerow .ground{
+      background-color: rgb(226, 191, 101);
+      border: solid 1px rgb(30, 30, 31);
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-top: 3px;
+      padding-bottom: 3px;
+      border-radius: 8%;
+      width: fit-content;
+}
+
+.typerow .normal{
+      background-color: rgb(168, 167, 122);
+      border: solid 1px rgb(30, 30, 31);
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-top: 3px;
+      padding-bottom: 3px;
+      border-radius: 8%;
+      width: fit-content;
+}
+
+.typerow .poison{
+      background-color: rgb(163, 56, 161);
+      border: solid 1px rgb(30, 30, 31);
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-top: 3px;
+      padding-bottom: 3px;
+      border-radius: 8%;
+      width: fit-content;
+}
+
+.typerow .water{
+      background-color: rgb(99, 154, 240);
+      border: solid 1px rgb(30, 30, 31);
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-top: 3px;
+      padding-bottom: 3px;
+      border-radius: 8%;
+      width: fit-content;
+}
+
+.typerow .grass{
+      background-color: rgb(122, 199, 76);
+      border: solid 1px rgb(30, 30, 31);
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-top: 3px;
+      padding-bottom: 3px;
+      border-radius: 8%;
+      width: fit-content;
+}
+
+.typerow .rock{
+      background-color: rgb(182, 161, 54);
+      border: solid 1px rgb(30, 30, 31);
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-top: 3px;
+      padding-bottom: 3px;
+      border-radius: 8%;
+      width: fit-content;
+}
+
+.typerow .ghost{
+      background-color: rgb(115, 87, 151);
+      border: solid 1px rgb(30, 30, 31);
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-top: 3px;
+      padding-bottom: 3px;
+      border-radius: 8%;
+      width: fit-content;
+}
+
+.typerow .psychic{
+      background-color: rgb(249, 85, 135);
+      border: solid 1px rgb(30, 30, 31);
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-top: 3px;
+      padding-bottom: 3px;
+      border-radius: 8%;
+      width: fit-content;
+}
+
+.typerow .fairy{
+      background-color: rgb(214, 133, 165);
+      border: solid 1px rgb(30, 30, 31);
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-top: 3px;
+      padding-bottom: 3px;
+      border-radius: 8%;
+      width: fit-content;
+}
+
+.typerow .dark{
+      background-color: rgb(112, 87, 70);
+      border: solid 1px rgb(30, 30, 31);
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-top: 3px;
+      padding-bottom: 3px;
+      border-radius: 8%;
+      width: fit-content;
+}
+
+.typerow .dragon{
+      background-color: rgb(102, 53, 252);
+      border: solid 1px rgb(30, 30, 31);
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-top: 3px;
+      padding-bottom: 3px;
+      border-radius: 8%;
+      width: fit-content;
+}
+
+.typerow .electric{
+      background-color: rgb(247, 218, 44);
+      border: solid 1px rgb(30, 30, 31);
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-top: 3px;
+      padding-bottom: 3px;
+      border-radius: 8%;
+      width: fit-content;
+}
+.previous a{
+      text-align: left;
+      font-size: x-large;
+      color: rgb(247, 245, 251);
+      letter-spacing: 1px;
+      margin: 15px;
+}
